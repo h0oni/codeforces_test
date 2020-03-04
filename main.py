@@ -1,9 +1,13 @@
 # =+
 def checkMagazine(m,n,b):
-  print(n)
-  print(b)
+  for i in n:
+    print(i,end='')
+  print('')
+  for i in b:
+    print(i,end='')
 
   return None
+
 
 
 
@@ -28,7 +32,6 @@ if __name__ == '__main__':
       necklace = sorted(list(int(i) for i in input().split()))
       bracelet = sorted(list(int(i) for i in input().split()))
       checkMagazine(number,necklace, bracelet)
-
 
 
 
